@@ -2,19 +2,14 @@
 
 ![캡처](https://user-images.githubusercontent.com/69049801/154909219-0fe52fa6-d4d4-45be-9814-8c8824b4bc89.PNG)
 
-## Getting Started
+## entity set
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+책 entity set, 회원 entity set, 비도서 entity set, 열람실 entity set, 좌석 entity set 가 있다.
 
-### Prerequisites
+### 책 entity set
 
-What things you need to install the software and how to install them
+책 entity set은 책에 대한 정보들을 entity로 가지며 attribute로는 도서번호, 제목, 저자, 출판사, 청구번호, ISBN을 가지고 있다. key는 도서번호이다. 청구번호는 중복 가능하다고 가정했다.
 
-```
-Give examples
-```
+### 회원 entity set
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
+회원 entity set은 회원에 대한 정보들을 entity로 가지며 attribute로는 회원번호, 이름, 주소, 생년월일, 이메일, 휴대폰번호를 가지고 있다. key는 회원번호이다.
