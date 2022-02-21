@@ -15,5 +15,5 @@ One Paragraph of project description goes here
 >> **JDBC를 이용하여 다음의 쿼리의 결과를 응용프로그램 단계에서 출력하기**
 >>
 > 
-> **사용한 skill : ER-model, ER-diagra, PostgreSQL, JDBC**
+> **사용한 skill : ER-model, ER-diagram, PostgreSQL, JDBC**
 > 
