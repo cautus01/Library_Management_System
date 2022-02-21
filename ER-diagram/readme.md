@@ -45,3 +45,8 @@
 ### 관내대출 relationship set
 회원 entity set과 비도서 entity set은 관내대출이라는 relationship set으로 이어져 있으며이 관내대출은 ‘회원 entity set의 entity가 비도서 entity set의 entity를 관내대출한다’라는 뜻을 지닌다. 관내대출 relationship set의 attribute로는 관내대출한 날이 언제인지, 대출한 시간이 언제인지, 반납한 시간이 언제인지, 연체시간이 얼마인지, 반납예정시간은 언제인지, 연체료는 얼마인지를 나타내는 관내대출일, 대출시간, 연체시간, 반납예정시간, 반납시간, 연체료라는
 attribute를 가지고 있다. 비도서는 관내대출만 가능하고, 반납하기 전에는 도서관을 나갈 수 없다라고 가정했다.
+
+### 가지고 있다 relationship set
+
+열람실 없이는 좌석이 존재할 수 없다.열람실 entity set과 좌석 entity set은 가지고있다 라는 relationship set으로 이어져 있으며좌석 entity set은 열람실 entity set에 항상 의존적이다.
+열람실 entity set의 entity가 좌석 entity set의 entity를 가지고있다 라는 뜻이다.
