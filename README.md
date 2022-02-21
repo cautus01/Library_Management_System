@@ -8,7 +8,7 @@ One Paragraph of project description goes here
 > 
 > **주요내용**
 > 
->> **도서관 관리 시스템의 ER-model을 설계하고 ER-diagram을 그리기 **
+>> **도서관 관리 시스템의 ER-model을 설계하고 ER-diagram을 그리기**
 >>
 >> **ER-Diagram을 토대로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기**
 >>
