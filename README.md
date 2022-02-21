@@ -1,6 +1,5 @@
 # 도서관 관리 시스템
 
-One Paragraph of project description goes here
 
 ## 프로젝트 개요
 
