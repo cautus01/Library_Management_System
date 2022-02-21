@@ -5,10 +5,15 @@ One Paragraph of project description goes here
 ## 프로젝트 개요
 
 > **진행기간**
+> 
 > **주요내용**
+> 
 > **본인이 기여한 점**
+> 
 > **사용한 skill**
+> 
 > **어려웠던 점**
+> 
 > **결과**
 
 ## Getting Started
