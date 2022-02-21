@@ -16,7 +16,7 @@
 > 
 > **사용한 skill : ER-model, ER-diagram, PostgreSQL, JDBC**<br/><br/>  
 
-## 도서관 관리 시스템 ER-diagram LINK(https://github.com/cautus01/Library_Management_System/tree/main/ER-diagram)
+## 도서관 관리 시스템 ER-diagram [LINK](https://github.com/cautus01/Library_Management_System/tree/main/ER-diagram)
 
 
 
