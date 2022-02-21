@@ -6,7 +6,7 @@ One Paragraph of project description goes here
 
 > **진행기간 : 2020.9.22 ~ 2020.11.16**
 > 
-> **주요내용**
+> **주요내용 : 도서관 관리 시스템의 ER-model을 설계하고 ER-diagram을 그리기 / **
 > 
 > **본인이 기여한 점**
 > 
