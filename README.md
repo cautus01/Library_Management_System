@@ -15,10 +15,7 @@
 >>
 > 
 > **사용한 skill : ER-model, ER-diagram, PostgreSQL, JDBC**<br/><br/>  
-
-
-
-    
+   
 ## 도서관 관리 시스템 ER-diagram
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
