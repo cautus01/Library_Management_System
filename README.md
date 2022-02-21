@@ -18,14 +18,6 @@
 
 ## 도서관 관리 시스템 ER-diagram
 
-![캡처](https://user-images.githubusercontent.com/69049801/154909219-0fe52fa6-d4d4-45be-9814-8c8824b4bc89.PNG)<br/><br/> 
-
 ## PostgreSQL로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기
 
-### 만들어진 테이블 목록 출력
 
-![테이블](https://user-images.githubusercontent.com/69049801/154912031-c5f99ee5-5b11-4638-b8c6-0506e8891507.PNG)
-
-### 각각의 테이블 정보
-
-#### book 
