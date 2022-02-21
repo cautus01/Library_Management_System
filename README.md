@@ -2,6 +2,15 @@
 
 One Paragraph of project description goes here
 
+## 프로젝트 개요
+
+> **진행기간**
+> **주요내용**
+> **본인이 기여한 점**
+> **사용한 skill**
+> **어려웠던 점**
+> **결과**
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
