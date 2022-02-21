@@ -4,7 +4,7 @@ One Paragraph of project description goes here
 
 ## 프로젝트 개요
 
-> **진행기간**
+> **진행기간 : 2020.9.22 ~ 2020.11.16**
 > 
 > **주요내용**
 > 
