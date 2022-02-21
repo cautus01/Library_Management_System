@@ -44,7 +44,7 @@
 
 열람실 entity set은 열람실에 대한 정보들을 entity로 가지며 attribute로는 열람실명, 좌석수, 운영시작시간, 운영종료시간을 가지고 있다. key는 열람실명이다. 열람실 중 운영시작시간과 운영종료시간이 다른 것이 몇 개 있다고 가정했다.
 
-https://github.com/cautus01/Library_Management_System/tree/main/ER-diagram<br/><br/> 에서 자세한 내용을 볼 수 있다.
+https://github.com/cautus01/Library_Management_System/tree/main/ER-diagram<br/><br/> 에서 ER-diagram 과 관련된 더 자세한 내용을 볼 수 있다.
 
 ## PostgreSQL로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기
 
