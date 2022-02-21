@@ -22,14 +22,10 @@
 
 ## PostgreSQL로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기
 
-What things you need to install the software and how to install them
+### 만들어진 테이블 목록 출력
 
-```
-Give examples
-```
+![테이블](https://user-images.githubusercontent.com/69049801/154912031-c5f99ee5-5b11-4638-b8c6-0506e8891507.PNG)
 
-### Installing
+### 각각의 테이블 정보
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+#### book 
