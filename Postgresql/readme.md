@@ -1,6 +1,6 @@
 # PostgreSQL로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기
 
-## 1. 현재 만들어진 테이블 목록 출력
+1. 현재 만들어진 테이블 목록 출력
 
 ![image](https://user-images.githubusercontent.com/69049801/158010926-ea1828c2-4076-4714-81f5-84a683be9db8.png)
 
