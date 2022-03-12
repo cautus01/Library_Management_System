@@ -15,6 +15,10 @@
 
 **사용한 skill : ER-model, ER-diagram, PostgreSQL, JDBC**<br/><br/>  
 
+**어려웠던점: ER-model을 설계하고 ER-Diagram을 그릴 때, 속성들의 관계 설정에 어떻게할지 고민을 많이 했으며, 실제 도서관 시스템이 어떻게 돌아가는지 조사해 해결하였다.
+
+**결과 : JDBC로 쿼리의 결과를 출력하였다.
+
 ## 도서관 관리 시스템 ER-diagram [LINK](https://github.com/cautus01/Library_Management_System/tree/main/ER-diagram)
 
 - entity set
