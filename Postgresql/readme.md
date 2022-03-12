@@ -101,24 +101,5 @@
     : 조건에 해당하는 데이터를 갱신한다. book테이블에서 bookid가 50인 데이터의 title을 feel good으로 갱신한다.
     
     ![image](https://user-images.githubusercontent.com/69049801/158012256-5c05e577-057b-46b1-898a-eeb3d3bc2d23.png)
-    
-7. join을 이용한 select문 3개
-
-- select * from member m, room r where m.rname=r.rname and r.rname='room2';
-
-    : member테이블과 room테이블에서 (조건: member테이블의 rname과 room테이블의 rname이 같고 room테이블의 rname이 room2인 데이터의) 모든 컬럼을 선택하고 보여준다.
-    
-    ![image](https://user-images.githubusercontent.com/69049801/158012460-30f3d73b-e250-443e-be6c-1caa0f57e522.png)
-
-- select * from member m, reservation r where m.memid=r.memid and r.memid=1;
-
-    : member테이블과 room테이블에서 (조건: member테이블의 rname과 room테이블의 rname이 같고 room테이블의 memid이 1인 데이터의) 모든 컬럼을 선택하고 보여준다.
-    
-    ![image](https://user-images.githubusercontent.com/69049801/158012468-cfaaa89f-e388-475d-a808-27bee6b095e7.png)
-
-- select * from member m, room r where m.rname=r.rname and r.rname='room1';
-
-    : member테이블과 room테이블에서 (조건: member테이블의 rname과 room테이블의 rname이 같고 room테이블의 rname이 room1인 데이터의) 모든 컬럼을 선택하고 보여준다.
-    
-    ![image](https://user-images.githubusercontent.com/69049801/158012485-ff2dda8c-cea6-4958-9894-88a03a17879e.png)
+ 
 
