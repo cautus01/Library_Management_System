@@ -31,7 +31,7 @@
 
 1. 현재 만들어진 테이블 목록 출력
 
-![image](https://user-images.githubusercontent.com/69049801/158010888-60620b8b-fcea-408e-9130-2e3e7e1ce3c1.png)
+![image](https://user-images.githubusercontent.com/69049801/158010926-ea1828c2-4076-4714-81f5-84a683be9db8.png)
 
 2.
 
