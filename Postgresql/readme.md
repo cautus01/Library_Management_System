@@ -73,3 +73,10 @@
 ![image](https://user-images.githubusercontent.com/69049801/158011484-a2bf5512-0a20-4b7f-b427-3595536a486f.png)
 
 
+5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
+    - select npub from notbook where npub='PBS';
+    : notbook테이블에서 npub가 PBS인 npub 컬럼을 선택하고 보여준다.
+    - select ntitle from notbook where ntitle='Rise of the mammals';
+    : notbook테이블에서 ntitle가 Rise of the mammals인 ntitle 컬럼을 선택하고 보여준다.
+    - select name from member where name='Noel';
+    : member테이블에서 name이 Noel인 name 컬럼을 선택하고 보여준다.
