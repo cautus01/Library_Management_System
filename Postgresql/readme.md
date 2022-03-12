@@ -54,20 +54,6 @@
 
 ![image](https://user-images.githubusercontent.com/69049801/158011287-a51ffe4b-8ce0-488c-a79d-adc55d34724f.png)
 
-3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
-
-- book 테이블의 모든 데이터를 출력
-
-- member 테이블의 모든 데이터를 출력
-
-- notbook 테이블의 모든 데이터를 출력
-
-- reservation 테이블의 모든 데이터를 출력
-
-- room 테이블의 모든 데이터를 출력
-
-- seats 테이블의 모든 데이터를 출력
-
 4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
 - select bookid, pub from book;
  : book테이블에서 bookid, pub 컬럼을 선택하고 보여준다.
