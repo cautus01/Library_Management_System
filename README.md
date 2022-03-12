@@ -48,3 +48,7 @@
     - select ntitle from notbook where ntitle='Rise of the mammals';
 
     - select name from member where name='Noel';
+
+6. 특정 조건에 대한 update문 1개
+
+    -update book set title='feel good' where bookid=50;
