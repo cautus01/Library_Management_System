@@ -47,17 +47,17 @@
 
 3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
 
-- book 테이블의 모든 데이터를 출력
+    - book 테이블의 모든 데이터를 출력
 
-- member 테이블의 모든 데이터를 출력
+    - member 테이블의 모든 데이터를 출력
 
-- notbook 테이블의 모든 데이터를 출력
+    - notbook 테이블의 모든 데이터를 출력
 
-- reservation 테이블의 모든 데이터를 출력
+    - reservation 테이블의 모든 데이터를 출력
 
-- room 테이블의 모든 데이터를 출력
+    - room 테이블의 모든 데이터를 출력
 
-- seats 테이블의 모든 데이터를 출력
+    - seats 테이블의 모든 데이터를 출력
 
 4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
 - select bookid, pub from book;
