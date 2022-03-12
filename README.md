@@ -37,13 +37,13 @@
 
 4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
     - select bookid, pub from book;
-    - 
-     : book테이블에서 bookid, pub 컬럼을 선택하고 보여준다.
+
+         : book테이블에서 bookid, pub 컬럼을 선택하고 보여준다.
 
     - select ntitle, npub from notbook;
-    - 
-    : notbook테이블에서 bookid, pub 컬럼을 선택하고 보여준다.
+
+        : notbook테이블에서 bookid, pub 컬럼을 선택하고 보여준다.
 
     - select name, address from member;
-    - 
-    : member테이블에서 name, address 컬럼을 선택하고 보여준다.
+
+        : member테이블에서 name, address 컬럼을 선택하고 보여준다.
