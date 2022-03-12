@@ -42,4 +42,9 @@
 
     - select name, address from member;
 
-5. 
+5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
+    - select npub from notbook where npub='PBS';
+
+    - select ntitle from notbook where ntitle='Rise of the mammals';
+
+    - select name from member where name='Noel';
