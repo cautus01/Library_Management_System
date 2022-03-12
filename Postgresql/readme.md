@@ -102,4 +102,10 @@
     
     ![image](https://user-images.githubusercontent.com/69049801/158012256-5c05e577-057b-46b1-898a-eeb3d3bc2d23.png)
  
-
+7. 집계함수와 group by, having, order by를 이용한 select문 3개
+ 
+    - select rname, count(*) *from member group by rname having count(*)<3* order by rname asc;
+        :member테이블의 rname을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 3 미만인 데이터의 rname과 count(*)를 출력한다. 이때 rname을 오름차순으로 정렬한다.
+    - select address, count(*) from member group by address having count(*)>1 order by address asc;
+    
+    - select npub, count(*) from notbook group by npub having count(*)>=1 order by npub asc;
