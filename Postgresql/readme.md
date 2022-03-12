@@ -77,11 +77,28 @@
 - select npub from notbook where npub='PBS';
     
    : notbook테이블에서 npub가 PBS인 npub 컬럼을 선택하고 보여준다.
+   
+   ![image](https://user-images.githubusercontent.com/69049801/158012214-59b04030-ed8c-42f7-b159-b524278d63aa.png)
+
     
 - select ntitle from notbook where ntitle='Rise of the mammals';
     
    : notbook테이블에서 ntitle가 Rise of the mammals인 ntitle 컬럼을 선택하고 보여준다.
+   
+   ![image](https://user-images.githubusercontent.com/69049801/158012224-32b76594-06aa-4324-9ea7-8a8ba48d5050.png)
+
     
 - select name from member where name='Noel';
     
     : member테이블에서 name이 Noel인 name 컬럼을 선택하고 보여준다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158012235-827a94a0-c691-47dd-a756-bf220d7ba132.png)
+    
+6. 특정 조건에 대한 update문 1개
+
+- update book set title='feel good' where bookid=50;
+
+    : 조건에 해당하는 데이터를 갱신한다. book테이블에서 bookid가 50인 데이터의 title을 feel good으로 갱신한다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158012256-5c05e577-057b-46b1-898a-eeb3d3bc2d23.png)
+
