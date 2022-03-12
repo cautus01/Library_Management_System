@@ -31,33 +31,9 @@
 
 1. 현재 만들어진 테이블 목록 출력
 
-2. 각각의 테이블의 정보
-
-- book 테이블 정보
-
-- member 테이블 정보
-
-- notbook 테이블 정보
-
-- reservation 테이블 정보
-
-- room 테이블 정보
-
-- seats 테이블 정보
+2. 각각의 테이블(book, member, notbook, reservation, room, seats)의 정보
 
 3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
-
-    - book 테이블의 모든 데이터를 출력
-
-    - member 테이블의 모든 데이터를 출력
-
-    - notbook 테이블의 모든 데이터를 출력
-
-    - reservation 테이블의 모든 데이터를 출력
-
-    - room 테이블의 모든 데이터를 출력
-
-    - seats 테이블의 모든 데이터를 출력
 
 4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
 - select bookid, pub from book;
