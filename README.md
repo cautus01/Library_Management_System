@@ -51,9 +51,11 @@
 
 ![image](https://user-images.githubusercontent.com/69049801/158010993-f3c3dedd-e243-4e0e-8281-19ab5959d2df.png)
 
--room 테이블 정보
+- room 테이블 정보
 
 ![image](https://user-images.githubusercontent.com/69049801/158011009-a62f11c6-cd93-4e84-8bbf-2c79d0a7c2e2.png)
 
+- seats 테이블 정보
 
+![image](https://user-images.githubusercontent.com/69049801/158011035-1f405c2e-cc99-4758-876c-b5d43cf16e01.png)
 
