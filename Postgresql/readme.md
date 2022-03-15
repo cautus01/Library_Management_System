@@ -1,10 +1,10 @@
 # PostgreSQL로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기
 
-1. 현재 만들어진 테이블 목록 출력
+## 1. 현재 만들어진 테이블 목록 출력
 
 ![image](https://user-images.githubusercontent.com/69049801/158010926-ea1828c2-4076-4714-81f5-84a683be9db8.png)
 
-2. 각각의 테이블의 정보
+## 2. 각각의 테이블의 정보
 
 - book 테이블 정보
 
@@ -30,7 +30,7 @@
 
 ![image](https://user-images.githubusercontent.com/69049801/158011035-1f405c2e-cc99-4758-876c-b5d43cf16e01.png)
 
-3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
+## 3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
 
 - book 테이블의 모든 데이터를 출력
 
@@ -56,7 +56,7 @@
 
 ![image](https://user-images.githubusercontent.com/69049801/158011287-a51ffe4b-8ce0-488c-a79d-adc55d34724f.png)
 
-4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
+## 4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
 - select bookid, pub from book;
     : book테이블에서 bookid, pub 컬럼을 선택하고 보여준다.
 
@@ -73,7 +73,7 @@
 ![image](https://user-images.githubusercontent.com/69049801/158011484-a2bf5512-0a20-4b7f-b427-3595536a486f.png)
 
 
-5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
+## 5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
 - select npub from notbook where npub='PBS';
     
    : notbook테이블에서 npub가 PBS인 npub 컬럼을 선택하고 보여준다.
@@ -94,7 +94,7 @@
     
     ![image](https://user-images.githubusercontent.com/69049801/158012235-827a94a0-c691-47dd-a756-bf220d7ba132.png)
     
-6. 특정 조건에 대한 update문 1개
+## 6. 특정 조건에 대한 update문 1개
 
 - update book set title='feel good' where bookid=50;
 
@@ -102,10 +102,27 @@
     
     ![image](https://user-images.githubusercontent.com/69049801/158012256-5c05e577-057b-46b1-898a-eeb3d3bc2d23.png)
  
-7. 집계함수와 group by, having, order by를 이용한 select문 3개
+## 7. 집계함수와 group by, having, order by를 이용한 select문 3개
  
-    - select rname, count(*) *from member group by rname having count(*)<3* order by rname asc;
-        :member테이블의 rname을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 3 미만인 데이터의 rname과 count(*)를 출력한다. 이때 rname을 오름차순으로 정렬한다.
+    - select rname, count(*) from member group by rname having count(*)<3 order by rname asc;
+    
+        :member테이블의 rname을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 3 미만인 데이터의 rname과 count(*)를 출력한다. 
+        이때 rname을 오름차순으로 정렬한다.
+        
+        ![image](https://user-images.githubusercontent.com/69049801/158320362-5448caad-6936-4306-bac2-e26fded09cab.png)
+
     - select address, count(*) from member group by address having count(*)>1 order by address asc;
     
+        : member테이블의 address을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 1 초과인 데이터의 address과 count(*)를 출력한다. 
+        이때 address를 오름차순으로 정렬한다.
+    
+        ![image](https://user-images.githubusercontent.com/69049801/158320445-f74d06c6-9e1a-4a80-a070-3b995ef63710.png)
+
     - select npub, count(*) from notbook group by npub having count(*)>=1 order by npub asc;
+    
+        : notbook테이블의 npub을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 1보다 크거나 같은 데이터의 npub과 count(*)를 출력한다. 
+        이때 npub를 오름차순으로 정렬한다.
+        
+        ![image](https://user-images.githubusercontent.com/69049801/158320575-2e4a85cf-e868-4b95-95f1-419792db262e.png)
+
+
