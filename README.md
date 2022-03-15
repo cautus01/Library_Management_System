@@ -27,7 +27,7 @@
 
 - relationship set
 
-자세한 내용은 [LINK](https://github.com/cautus01/Library_Management_System/tree/main/ER-diagram)
+자세한 내용은 [**LINK**](https://github.com/cautus01/Library_Management_System/tree/main/ER-diagram)
 
 ## PostgreSQL로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기
 
