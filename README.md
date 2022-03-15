@@ -31,31 +31,31 @@
 
 ## PostgreSQL로 TABLE 생성 , DATA 삽입 , SQL쿼리를 실행하기
 
-1. 현재 만들어진 테이블 목록 출력
+### 1. 현재 만들어진 테이블 목록 출력
 
-2. 각각의 테이블(book, member, notbook, reservation, room, seats)의 정보
+### 2. 각각의 테이블(book, member, notbook, reservation, room, seats)의 정보
 
-3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
+### 3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
 
-4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
+### 4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
     - select bookid, pub from book;
 
     - select ntitle, npub from notbook;
 
     - select name, address from member;
 
-5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
+### 5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
     - select npub from notbook where npub='PBS';
 
     - select ntitle from notbook where ntitle='Rise of the mammals';
 
     - select name from member where name='Noel';
 
-6. 특정 조건에 대한 update문 1개
+### 6. 특정 조건에 대한 update문 1개
 
     - update book set title='feel good' where bookid=50;
 
-7. 집계함수와 group by, having, order by를 이용한 select문 3개
+### 7. 집계함수와 group by, having, order by를 이용한 select문 3개
  
     - select rname, count(\*) from member group by rname having count(\*)<3 order by rname asc;
     
@@ -63,7 +63,7 @@
     
     - select npub, count(\*) from notbook group by npub having count(\*)>=1 order by npub asc;
 
-8. subquery를 이용한 select문 3개
+### 8. subquery를 이용한 select문 3개
 
     - select * from member where memid > (select memid from member where name='Leah');
 
