@@ -41,34 +41,34 @@
 
 * select bookid, pub from book;
 
-    * select ntitle, npub from notbook;
+* select ntitle, npub from notbook;
 
-    * select name, address from member;
+* select name, address from member;
 
 ### 5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
 
-    - select npub from notbook where npub='PBS';
+- select npub from notbook where npub='PBS';
 
-    - select ntitle from notbook where ntitle='Rise of the mammals';
+- select ntitle from notbook where ntitle='Rise of the mammals';
 
-    - select name from member where name='Noel';
+- select name from member where name='Noel';
 
 ### 6. 특정 조건에 대한 update문 1개
 
-    - update book set title='feel good' where bookid=50;
+- update book set title='feel good' where bookid=50;
 
 ### 7. 집계함수와 group by, having, order by를 이용한 select문 3개
  
-    - select rname, count(\*) from member group by rname having count(\*)<3 order by rname asc;
+- select rname, count(\*) from member group by rname having count(\*)<3 order by rname asc;
     
-    - select address, count(\*) from member group by address having count(\*)>1 order by address asc;
+- select address, count(\*) from member group by address having count(\*)>1 order by address asc;
     
-    - select npub, count(\*) from notbook group by npub having count(\*)>=1 order by npub asc;
+- select npub, count(\*) from notbook group by npub having count(\*)>=1 order by npub asc;
 
 ### 8. subquery를 이용한 select문 3개
 
-    - select * from member where memid > (select memid from member where name='Leah');
+- select * from member where memid > (select memid from member where name='Leah');
 
-    - select * from book where bookid < (select bookid from book where title='feel good');
+- select * from book where bookid < (select bookid from book where title='feel good');
 
-    - select * from notbook where nbookid < (select nbookid from notbook where ntitle='Bears');
+- select * from notbook where nbookid < (select nbookid from notbook where ntitle='Bears');
