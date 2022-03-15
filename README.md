@@ -57,8 +57,8 @@
 
 7. 집계함수와 group by, having, order by를 이용한 select문 3개
  
-    - select rname, count(*) from member group by rname having count(*)<3 order by rname asc;
+    - select rname, count(\*) from member group by rname having count(\*)<3 order by rname asc;
     
-    - select address, count(*) from member group by address having count(*)>1 order by address asc;
+    - select address, count(\*) from member group by address having count(\*)>1 order by address asc;
     
-    - select npub, count(*) from notbook group by npub having count(*)>=1 order by npub asc;
+    - select npub, count(\*) from notbook group by npub having count(\*)>=1 order by npub asc;
