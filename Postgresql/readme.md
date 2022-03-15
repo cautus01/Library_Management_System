@@ -104,25 +104,22 @@
  
 ## 7. 집계함수와 group by, having, order by를 이용한 select문 3개
  
-    - select rname, count(*) from member group by rname having count(*)<3 order by rname asc;
+- select rname, count(*) from member group by rname having count(*)<3 order by rname asc;
     
-        :member테이블의 rname을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 3 미만인 데이터의 rname과 count(*)를 출력한다. 
-        이때 rname을 오름차순으로 정렬한다.
+    :member테이블의 rname을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 3 미만인 데이터의 rname과 count(*)를 출력한다. 이때 rname을 오름차순으로 정렬한다.
         
-        ![image](https://user-images.githubusercontent.com/69049801/158320362-5448caad-6936-4306-bac2-e26fded09cab.png)
+    ![image](https://user-images.githubusercontent.com/69049801/158320362-5448caad-6936-4306-bac2-e26fded09cab.png)
 
-    - select address, count(*) from member group by address having count(*)>1 order by address asc;
+- select address, count(*) from member group by address having count(*)>1 order by address asc;
     
-        : member테이블의 address을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 1 초과인 데이터의 address과 count(*)를 출력한다. 
-        이때 address를 오름차순으로 정렬한다.
+    : member테이블의 address을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 1 초과인 데이터의 address과 count(*)를 출력한다. 이때 address를 오름차순으로 정렬한다.
     
-        ![image](https://user-images.githubusercontent.com/69049801/158320445-f74d06c6-9e1a-4a80-a070-3b995ef63710.png)
+    ![image](https://user-images.githubusercontent.com/69049801/158320445-f74d06c6-9e1a-4a80-a070-3b995ef63710.png)
 
-    - select npub, count(*) from notbook group by npub having count(*)>=1 order by npub asc;
+- select npub, count(*) from notbook group by npub having count(*)>=1 order by npub asc;
     
-        : notbook테이블의 npub을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 1보다 크거나 같은 데이터의 npub과 count(*)를 출력한다. 
-        이때 npub를 오름차순으로 정렬한다.
+    : notbook테이블의 npub을 그룹화하여 count(*)(뜻: 전체 데이터의 갯수)의 개수가 1보다 크거나 같은 데이터의 npub과 count(*)를 출력한다. 이때 npub를 오름차순으로 정렬한다.
         
-        ![image](https://user-images.githubusercontent.com/69049801/158320575-2e4a85cf-e868-4b95-95f1-419792db262e.png)
+    ![image](https://user-images.githubusercontent.com/69049801/158320575-2e4a85cf-e868-4b95-95f1-419792db262e.png)
 
 
