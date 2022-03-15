@@ -72,3 +72,11 @@
 - select * from book where bookid < (select bookid from book where title='feel good');
 
 - select * from notbook where nbookid < (select nbookid from notbook where ntitle='Bears');
+
+### 9. 특정 테이블의 특정 컬럼, 특정 조건에 대해서 view의 생성 3개
+
+- create v_member as select memid, name from member;
+
+- create view v_book as select bookid, title from book;
+
+- create view v_notbook as select nbookid, ntitle from notbook;
