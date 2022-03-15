@@ -62,3 +62,11 @@
     - select address, count(\*) from member group by address having count(\*)>1 order by address asc;
     
     - select npub, count(\*) from notbook group by npub having count(\*)>=1 order by npub asc;
+
+8. subquery를 이용한 select문 3개
+
+    - select * from member where memid > (select memid from member where name='Leah');
+
+    - select * from book where bookid < (select bookid from book where title='feel good');
+
+    - select * from notbook where nbookid < (select nbookid from notbook where ntitle='Bears');
