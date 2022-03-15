@@ -122,4 +122,23 @@
         
     ![image](https://user-images.githubusercontent.com/69049801/158320575-2e4a85cf-e868-4b95-95f1-419792db262e.png)
 
+## 8. subquery를 이용한 select문 3개
+
+- select * from member where memid > (select memid from member where name='Leah');
+    
+    :member 테이블에서 조건( memid가 조건1을 초과하는(조건1: memid가 (member테이블에서 name이 Leah인 memid를 선택) )데이터의 모든 컬럼을 선택하고 출력한다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158322198-d6e5a789-be87-4f00-8202-e955321d569b.png)
+
+- select * from book where bookid < (select bookid from book where title='feel good');
+
+    : book 테이블에서 조건( bookid가 조건1보다 작은 (조건1: bookid가 (book테이블에서 title이 feel good인 bookid를 선택))을 만족하는 데이터의 모든 컬럼을 선택하고 출력한다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158322267-e2163d28-855c-4d41-8082-ed66011a3b0a.png)
+
+- select * from notbook where nbookid < (select nbookid from notbook where ntitle='Bears');
+
+    : notbook 테이블에서 조건( nbookid가 조건1보다 작은 (조건1: nbookid가 (notbook테이블에서 ntitle이 Bears인 bookid를 선택) )을 만족하는 데이터의 모든 컬럼을 선택하고 출력한다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158322320-c8b4668f-0eba-499e-abd4-d4b18f7a7376.png)
 
