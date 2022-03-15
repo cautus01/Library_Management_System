@@ -38,13 +38,15 @@
 ### 3. 만들어진 모든 테이블에 대해 모든 데이터를 조회하는 select문
 
 ### 4. 특정 테이블의 특정 컬럼만 조회하는 select문 3개
-    - select bookid, pub from book;
 
-    - select ntitle, npub from notbook;
+* select bookid, pub from book;
 
-    - select name, address from member;
+    * select ntitle, npub from notbook;
+
+    * select name, address from member;
 
 ### 5. 특정 테이블의 특정 조건의 특정 컬럼만 조회하는 select문 3개
+
     - select npub from notbook where npub='PBS';
 
     - select ntitle from notbook where ntitle='Rise of the mammals';
