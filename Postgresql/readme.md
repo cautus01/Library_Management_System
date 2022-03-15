@@ -141,4 +141,25 @@
     : notbook 테이블에서 조건( nbookid가 조건1보다 작은 (조건1: nbookid가 (notbook테이블에서 ntitle이 Bears인 bookid를 선택) )을 만족하는 데이터의 모든 컬럼을 선택하고 출력한다.
     
     ![image](https://user-images.githubusercontent.com/69049801/158322320-c8b4668f-0eba-499e-abd4-d4b18f7a7376.png)
+    
+### 9. 특정 테이블의 특정 컬럼, 특정 조건에 대해서 view의 생성 3개
+
+- create v_member as select memid, name from member;
+
+    : member테이블에서 memid, name 컬럼을 선택하고 보여주는 view를 생성한다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158322617-4a705b78-fe70-4cc1-9a64-ec77e123544e.png)
+
+- create view v_book as select bookid, title from book;
+
+    : book테이블에서 bookid, title 컬럼을 선택하고 보여주는 view를 생성한다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158322659-465d5eb2-5425-4c5b-8f08-491953aabd13.png)
+
+- create view v_notbook as select nbookid, ntitle from notbook;
+
+    : notbook테이블에서 nbookid, ntitle 컬럼을 선택하고 보여주는 view를 생성한다.
+    
+    ![image](https://user-images.githubusercontent.com/69049801/158322705-601598dc-3cc8-485b-9bd3-7c73e7030117.png)
+
 
