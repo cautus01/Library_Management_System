@@ -80,3 +80,5 @@
 - create view v_book as select bookid, title from book;
 
 - create view v_notbook as select nbookid, ntitle from notbook;
+
+자세한 내용은 [**LINK**](https://github.com/cautus01/Library_Management_System/tree/main/Postgresql) 참고
